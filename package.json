@@ -6,7 +6,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "jest",
-    "coverage": "jest --collectCoverage"
+    "coverage": "jest --collectCoverage",
+    "watchAll": "jest --watchAll"
   },
   "devDependencies": {
     "jest": "^27.4.7",
