@@ -1,9 +1,7 @@
-/* */
 function minMaxArray(array) {
   if (!isNaN(array)) {
     return [array, array];
   }
-
   if (typeof (array) === typeof ("string")) {
     return null;
   }
